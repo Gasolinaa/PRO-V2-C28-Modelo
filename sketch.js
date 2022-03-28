@@ -65,17 +65,13 @@ function draw() {
         score += 5;
       }*/
 
-      /*if (board1Collision.collided && board2Collision.collided) {
+      if (board1Collision.collided && board2Collision.collided) {
         score += 5;
-      }*/
+      }
 
-      /*if (board1Collision.collided || board2Collision.collided) {
-        score += 5;
-      }*/
+      
 
-      /*if (board1Collision.collided || board2Collision.collided) {
-        score = 5;
-      }*/
+     
 
       
       var posX = playerArrows[i].body.position.x;
@@ -109,21 +105,16 @@ function draw() {
   textSize(30);
   text("Pontuação: " + score, width - 200, 100);
 
-  /*if (numberOfArrows == 5) {
-    gameOver();
-  }*/
+ 
 
-  /*if (numberOfArrows == 0) {
+  if (numberOfArrows == 0) {
     gameOver();
-  }*/
+  }
 
   /*if (numberOfArrows = 0) {
     gameOver();
   }*/
 
-  /*if (numberOfArrows == 0) {
-    gameOver;
-  }*/
 
 }
 
